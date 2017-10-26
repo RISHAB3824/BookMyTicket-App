@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingTop="20dp"
+    android:background="@drawable/txt"
+
+    tools:context="com.example.rocky_pc.projectglobsyn.DetailsYou">
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        >
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="User Name "
+                android:textSize="25dp"
+
+                android:layout_column="0"
+                android:textColor="#0F0E0E"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="22dp"
+                android:textColor="#0F0E0E"
+                android:text=" :  "
+
+                android:layout_column="2"
+/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0F0E0E"
+                android:textSize="22dp"
+
+                android:text="Sanjoy Sonar"
+                android:id="@+id/txt_name"
+                android:layout_column="3"
+ />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Email id "
+                android:textSize="25dp"
+                android:textColor="#0F0E0E"
+                android:layout_column="0" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0F0E0E"
+                android:textSize="22dp"
+
+                android:text=" :  "
+
+                android:layout_column="2"
+/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="thesanjoy@outlook.com"
+                android:textSize="22dp"
+                android:textColor="#0F0E0E"
+                android:id="@+id/txt_eid"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Phone No "
+                android:textColor="#0F0E0E"
+                android:textSize="25dp"
+                android:layout_column="0" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#0F0E0E"
+                android:textSize="22dp"
+
+                android:text=" :  "
+
+                android:layout_column="2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7031035805"
+                android:textSize="22dp"
+                android:textColor="#0F0E0E"
+                android:id="@+id/txt_phno"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_margin="15dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:text="Password "
+                android:textSize="25dp"
+                android:textColor="#0F0E0E"
+                android:layout_column="0" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="22dp"
+                android:textColor="#0F0E0E"
+                android:text=" :  "
+
+                android:layout_column="2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123456789"
+                android:textSize="22dp"
+                android:textColor="#0F0E0E"
+                android:id="@+id/txt_pwd"
+                android:layout_column="3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        </TableRow>
+        <Button
+            android:id="@+id/btn_logout"
+
+            android:text="Logout"
+            android:textColor="#EDD1D4"
+            android:textSize="25sp"
+            android:layout_margin="50dp"
+            android:layout_width="229dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#EDD1D4"
+            android:shadowDx="3"
+            android:shadowDy="0"
+            android:shadowRadius="6"
+            android:layout_column="1" />
+    </TableLayout>
+</RelativeLayout>

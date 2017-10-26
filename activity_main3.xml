@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/txt"
+
+    tools:context="com.example.arnabchoudhury.bookoing.MainActivity3">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:text="Hall: "
+                android:id="@+id/txt_11"
+                android:layout_column="0"
+                />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="15dp"
+        android:id="@+id/txt_1"
+        android:layout_column="1"
+        />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:text="Seat Type:"
+                android:id="@+id/txt_21"
+                android:layout_column="0"
+                />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="15dp"
+        android:id="@+id/txt_2"
+        android:layout_column="1"
+        />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:text="Time: "
+                android:id="@+id/txt_41"
+                android:layout_column="0"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="15dp"
+                android:id="@+id/txt_4"
+                android:layout_column="1"
+                />
+        </TableRow>
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_pay1"
+                android:layout_margin="10dp"
+                android:text="PRICE: "
+
+                android:layout_column="0"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_pay"
+                android:layout_margin="10dp"
+                android:layout_column="1"
+                />
+        </TableRow>
+    </TableLayout>
+   <Spinner
+       android:layout_width="150dp"
+       android:layout_height="wrap_content"
+       android:id="@+id/spn"
+/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="BOOK"
+        android:textSize="25dp"
+        android:id="@+id/btn"
+        android:textColor="@color/colorAccent"
+
+        android:layout_margin="20dp"
+        />
+
+</LinearLayout>

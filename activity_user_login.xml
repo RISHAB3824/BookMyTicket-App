@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/txt"
+    tools:context="com.example.rocky_pc.projectglobsyn.UserLogin">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/txt_eid"
+        android:hint="Email id"
+        android:layout_margin="20dp"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        android:id="@+id/txt_pwd"
+        android:hint="Password"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_marginLeft="13dp"
+        >
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember Me?"
+        android:textSize="20dp"
+
+        android:id="@+id/chk_rememberme" />
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/btn_login"
+
+        android:text="Login"
+        android:textColor="#EDD1D4"
+        android:textSize="25sp"
+
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#8FA89F"
+        android:shadowDx="3"
+        android:shadowDy="0"
+        android:shadowRadius="6"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/btn_signup"
+
+        android:text="Signup"
+        android:textColor="#EDD1D4"
+        android:textSize="25sp"
+        android:layout_margin="10dp"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:shadowColor="#EDD1D4"
+        android:shadowDx="3"
+        android:shadowDy="0"
+        android:shadowRadius="6"
+        />
+
+
+</LinearLayout>

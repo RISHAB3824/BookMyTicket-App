@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@drawable/txt"
+    tools:context="com.example.arnabchoudhury.bookoing.MainActivity2">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/txt_2"
+        android:textSize="25dp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="left"
+            >
+
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="12:30pm"
+        android:id="@+id/radio_1"
+        android:textSize="14dp"
+        />
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="2:00pm"
+        android:id="@+id/radio_2"
+        android:textSize="14dp"
+        />
+            <RadioButton
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text="7:30pm"
+                android:id="@+id/radio_3"
+                android:textSize="14dp"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lv"
+        >
+
+    </ListView>
+
+
+
+</LinearLayout>

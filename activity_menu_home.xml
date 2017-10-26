@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/txt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="0dp"
+
+    tools:context="com.example.rocky_pc.projectglobsyn.MenuHome">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imgbtn_movies"
+        android:scaleType="fitXY"
+        android:src="@drawable/movie"
+        android:layout_margin="0dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_movie"
+        android:text="MOVIES"
+        android:textColor="#0F0E0E"
+        android:textSize="35dp"
+        android:layout_margin="0dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:layout_marginTop="5dp"
+        >
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:id="@+id/imgbtn_you"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:src="@drawable/img_you"
+            android:scaleType="fitXY"
+            android:layout_marginTop="5dp"
+            />
+        <ImageButton
+            android:layout_width="300dp"
+            android:layout_height="180dp"
+            android:id="@+id/imgbtn_wallet"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:src="@drawable/img_wallett"
+            android:scaleType="fitXY"
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="YOU"
+            android:textColor="#0F0E0E"
+            android:textSize="25dp"
+            android:layout_margin="5dp"
+            android:paddingLeft="30dp"/>
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="WALLET"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:layout_margin="5dp"
+            android:paddingLeft="20dp"
+            />
+
+    </LinearLayout>
+</LinearLayout>
