@@ -1,4 +1,4 @@
-package com.example.rocky_pc.projectglobsyn;
+package com.example.rishi_pc.projectglobsyn;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBar;
