@@ -1,4 +1,4 @@
-package com.example.rocky_pc.projectglobsyn;
+
 
 import android.app.Activity;
 import android.view.LayoutInflater;
@@ -9,9 +9,6 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by ARNAB CHOUDHURY on 27-07-2016.
- */
 public class Custom_adaptor1 extends ArrayAdapter {
     Activity context;
     ArrayList<PRODUCT> products;
