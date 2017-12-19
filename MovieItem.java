@@ -1,4 +1,4 @@
-package com.example.rocky_pc.projectglobsyn;
+
 
 import android.widget.Button;
 import android.widget.ImageButton;
