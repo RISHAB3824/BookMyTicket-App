@@ -1,4 +1,3 @@
-package com.example.rocky_pc.projectglobsyn;
 
 import org.junit.Test;
 
