@@ -1,4 +1,4 @@
-package com.example.rocky_pc.projectglobsyn;
+
 
 import android.content.Intent;
 import android.content.SharedPreferences;
